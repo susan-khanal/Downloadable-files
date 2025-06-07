@@ -1,0 +1,21 @@
+Reset Cisco switch password via console 
+
+Speed: 115200 
+Parity: None 
+Flow Control: None 
+
+Connect to switch via console cable and putty 
+Reboot the switch 
+In the putty window during boot 
+  Wait for - Autoboot in 2 seconds - press RETURN or Esc. to abort and enter prom. 
+enable
+Press enter 
+Press Option 3 
+  Wait for it to finish booting and type 
+enable 
+config 
+username EXISTINGUSERNAME password NEWPASSWORD 
+exit 
+Write 
+
+Credits: https://www.youtube.com/watch?v=NBq5AIE8plI
